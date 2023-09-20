@@ -15,7 +15,7 @@ import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
-	const links = ['Home', 'About', 'Tours', 'Contacts'];
+	const links = ['Home', 'About', 'Tours', 'Blog', 'Contacts'];
 
 	const { isOpen, onOpen, onClose } = useDisclosure();
 	const [placement, setPlacement] = useState('right');

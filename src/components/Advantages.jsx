@@ -6,7 +6,7 @@ import Anvantage from './Anvantage';
 
 const Advantages = () => {
 	return (
-		<Box w={'full'} bg={'gray.100'} py={10}>
+		<Box w={'full'} bg={'gray.100'} py={10} id='about'>
 			<Container maxW={'container.lg'}>
 				<Grid
 					gridTemplateColumns={{

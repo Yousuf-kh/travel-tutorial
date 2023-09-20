@@ -10,6 +10,7 @@ const Hero = () => {
 			backgroundPosition={'center top'}
 			position={'relative'}
 			mt={5}
+			id='home'
 		>
 			<Container maxW={'container.lg'}>
 				<Box

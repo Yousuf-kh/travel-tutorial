@@ -11,7 +11,7 @@ import {
 
 const Blog = () => {
 	return (
-		<Box w={'full'} py={5}>
+		<Box w={'full'} py={5} id='blog'>
 			<Container maxW={'container.xl'}>
 				<Center py={2}>
 					<Heading>BLOG</Heading>

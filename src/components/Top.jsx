@@ -10,7 +10,12 @@ import {
 
 const Top = () => {
 	return (
-		<Box w={'full'} py={5} minH={{ base: '150vh', md: '0vh' }}>
+		<Box
+			w={'full'}
+			py={5}
+			minH={{ base: '150vh', md: '0vh' }}
+			id='tours'
+		>
 			<Container maxW={'container.lg'}>
 				<Box textAlign={'center'} py={3}>
 					<Heading>Top Destansions</Heading>

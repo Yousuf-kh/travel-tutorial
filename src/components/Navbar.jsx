@@ -15,7 +15,28 @@ import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
-	const links = ['Home', 'About', 'Tours', 'Blog', 'Contacts'];
+	const links = [
+		{
+			name: 'Home',
+			link: '#home',
+		},
+		{
+			name: 'About',
+			link: '#about',
+		},
+		{
+			name: 'Tours',
+			link: '#tours',
+		},
+		{
+			name: 'Blog',
+			link: '#blog',
+		},
+		{
+			name: 'Contact',
+			link: '#contact',
+		},
+	];
 
 	const { isOpen, onOpen, onClose } = useDisclosure();
 	const [placement, setPlacement] = useState('right');
@@ -41,9 +62,9 @@ const Navbar = () => {
 
 					<Flex gap={3} display={{ base: 'none', md: 'flex' }}>
 						{links.map((c, i) => (
-							<Text cursor={'pointer'} key={i}>
-								{c}
-							</Text>
+							<a href={c.link} cursor={'pointer'} key={i}>
+								{c.name}
+							</a>
 						))}
 					</Flex>
 
@@ -69,7 +90,7 @@ const Navbar = () => {
 											my={2}
 											borderRadius={'10px'}
 										>
-											{c}
+											<a href={c.link}>{c.name}</a>
 										</Text>
 									))}
 								</DrawerBody>

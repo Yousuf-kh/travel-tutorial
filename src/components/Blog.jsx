@@ -36,7 +36,12 @@ const Blog = () => {
 						</Text>
 					</Box>
 					<Box>
-						<Flex pb={3} align={'center'} gap={3}>
+						<Flex
+							pb={3}
+							align={'center'}
+							gap={3}
+							flexDir={{ base: 'column', md: 'row' }}
+						>
 							<Image src={'/paris.jpg'} w={'250px'} h={'150px'} />
 							<Box>
 								<Heading fontSize={'20px'}>Paris</Heading>
@@ -47,7 +52,12 @@ const Blog = () => {
 								</Text>
 							</Box>
 						</Flex>
-						<Flex pb={3} align={'center'} gap={3}>
+						<Flex
+							pb={3}
+							align={'center'}
+							gap={3}
+							flexDir={{ base: 'column', md: 'row' }}
+						>
 							<Image src={'/london.jpg'} w={'250px'} h={'150px'} />
 							<Box>
 								<Heading fontSize={'20px'}>London</Heading>
@@ -58,7 +68,12 @@ const Blog = () => {
 								</Text>
 							</Box>
 						</Flex>
-						<Flex pb={3} align={'center'} gap={3}>
+						<Flex
+							pb={3}
+							align={'center'}
+							gap={3}
+							flexDir={{ base: 'column', md: 'row' }}
+						>
 							<Image src={'/dubay.jpg'} w={'250px'} h={'150px'} />
 							<Box>
 								<Heading fontSize={'20px'}>Dubai</Heading>

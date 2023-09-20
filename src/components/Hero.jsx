@@ -22,7 +22,7 @@ const Hero = () => {
 					left={0}
 				></Box>
 				<Box
-					pt={{ base: '470px', md: '200px' }}
+					pt={{ base: '450px', md: '200px' }}
 					textAlign={'right'}
 					position={'relative'}
 				>
@@ -34,7 +34,11 @@ const Hero = () => {
 					>
 						Traveller for life
 					</Text>
-					<Text lineHeight={'60px'} color={'#fff'} fontSize={'40px'}>
+					<Text
+						lineHeight={'60px'}
+						color={'#fff'}
+						fontSize={{ base: '25px', md: '40px' }}
+					>
 						kive your best moments
 					</Text>
 				</Box>

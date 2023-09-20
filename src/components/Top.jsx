@@ -13,7 +13,7 @@ const Top = () => {
 		<Box
 			w={'full'}
 			py={5}
-			minH={{ base: '150vh', md: '0vh' }}
+			minH={{ base: '145vh', md: '0vh' }}
 			id='tours'
 		>
 			<Container maxW={'container.lg'}>

@@ -1,8 +1,8 @@
 import { Box, Container, Grid } from '@chakra-ui/react';
-import Anvantage from './anvantage';
 import { SiYourtraveldottv } from 'react-icons/si';
 import { GiAlarmClock } from 'react-icons/gi';
 import { MdOutlineDiscount } from 'react-icons/md';
+import Anvantage from './Anvantage';
 
 const Advantages = () => {
 	return (
